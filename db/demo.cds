@@ -16,9 +16,9 @@ entity Employee {
 
 entity Address {
     key id:UUID;
-        city:String not null;
-        address:String not null;
-        pin:Integer not null;
+        city:String ;
+        address:String ;
+        pin:Integer ;
         street:String;
 
 }

@@ -1,2 +1,13 @@
-## for getting the data
-GET http://localhost:4004/EmployeeSRV/Employee HTTP/1.1
+#creating data
+POST  http://localhost:4004/EmployeeSRV/Employee HTTP/1.1
+# POST http://localhost:4004/EmployeeSRV/Employee HTTP/1.1
+# Content-Type: application/json
+#    "{"
+#       "name": "sreeramsre",
+#       "fname": "sree",
+#       "lname": "sreed",
+#       "gender": "male",
+#       "DOB": "2001-04-03",
+#       "email": "sree172@gmail.com",
+#       "phone": "6301706244"
+#     }"
