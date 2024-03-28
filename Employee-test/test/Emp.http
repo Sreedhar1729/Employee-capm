@@ -1,0 +1,5 @@
+//GET   http://localhost:4004/EmpSRV/Emp HTTP/1.1
+
+#get employee 
+
+GET http://localhost:4004/EmpSRV/Emp/73934430-ecde-11ee-96b0-0800200c9a66 HTTP/1.1
