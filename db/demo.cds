@@ -10,5 +10,4 @@ entity Employee {
         email  : String;
         phone  : String;
 
-
 }
