@@ -1,5 +1,14 @@
-//GET   http://localhost:4004/EmpSRV/Emp HTTP/1.1
+###create employee
+POST   http://localhost:4004/EmpSRV/Emp HTTP/1.1
+Content-Type: application/json
 
-#get employee 
+{ 
+  "fname": "sai",
+  "lname": "ram",
+  "phone": "9309021243",
+  "amount": 900990,
+  "address_id": "4d54aa2d-4174-4cdb-925d-5bd6774c1448"
+}
 
-GET http://localhost:4004/EmpSRV/Emp/73934430-ecde-11ee-96b0-0800200c9a66 HTTP/1.1
+###get employee 
+ GET  http://localhost:4004/EmpSRV/Emp/73934430-ecde-11ee-96b0-0800200c9a66 HTTP/1.
